@@ -42,7 +42,13 @@ Please assure you have done the following.
 
 11.  Snapshot the Flare WIndows VM and REmnux.
 
-12.  Grab a copy of Scar from here:  
+12.  Grab a copy of Scar from here: https://github.com/citizenstaar/scar/blob/master/scar.zzz 
+
+13.  Stage a copy on the desktops of both Remnux and Flare VMs.
+
+14.  Change the network for both hosts to "Host Only".
+
+15.  Snapshot both VMs
  
 ==================        1         ===================
 
@@ -50,7 +56,8 @@ Please assure you have done the following.
 
 		STATIC ANALYSIS
 
-
+ 
+<TBA>
 
 
 
@@ -60,6 +67,8 @@ Please assure you have done the following.
 
 
 		DYNAMIC ANALYSIS
+<TBA>
+
 
 
 ==================        3         ===================
@@ -68,10 +77,14 @@ Please assure you have done the following.
 
 		CODE ANALYSIS
 
+<TBA>
+
 ==================        4         ===================
 
 ==================        5         ===================
 
 		MEMORY ANALYSIS
+
+<TBA>
 
 ==================        5         ===================
