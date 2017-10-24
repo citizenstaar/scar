@@ -11,6 +11,7 @@
 	DYNAMIC ANALYSIS             3
 	CODE ANALYSIS                4
 	MEMORY ANALYSIS              5
+        OPEN SOURCE INTELLIGENCE     6
 
 ===================TABLE OF CONTENTS===================
 
@@ -56,11 +57,36 @@ Please assure you have done the following.
 
 		STATIC ANALYSIS
 
- 
-<TBA>
+1.  Drag the unmodified scar.zzz to PEstudio
+
+2.  Select the root node in the tree that should be titled according the current directory of scar and its file name "scar.zzz"
+
+a.  Observe that you have CPU arch the software was developed for, logical size of the file, file type,  and the cryptographic hashes (md5/sha1)
+
+b.  The cryptographic hash and logical size can be used to identify the file on disk or in network logs(like bro file hashes).
+
+c.  The cryptographic hash can be used to search malware repository like Virustotal.  (See section 6 Open Source Intelligence.)
+
+d.  The data observed in item 3 can be used from a host forensic perspective to check disk for the original file being on the endpoint.
+
+3.  Select the node in the tree titled "Indicators".
+
+a.  Observe the types of Indicators and notice what the creators of PEStudio percieve as malicios.
+
+b.  Observe that 22 of 34 indicators were identified with respect to Scar.
+
+c.  Notice that three additional files are identified with their Cryptographic hash (md5.)  Use these in conjunction with the steps in section 6
+
+4.  Select the node for Imported Symbols.  
+
+a.  Notice the blacklisted symbols and the associated function call and library. 
+
+b.  Try to identify function calls that might be indicators of the software having a network communication capability.
+
+c.  Use MSDN to research the purpose of function calls of interest.
 
 
-
+Please note that through the example tool we were able to identify indicators for the file to include cryptographic hashes, logical size, embedded file information, and interesting function calls.   The file information can be provided back to intrustion analysts and investigtors to verify aagainst network/host logs or check host file system for indicators.  Also, you should be able to provide a hypothesis on what the capability of th software is based on your review of api calls. 
 ==================        2         ===================
 
 ==================        3         ===================
@@ -88,3 +114,11 @@ Please assure you have done the following.
 <TBA>
 
 ==================        5         ===================
+
+==================        6         ===================
+
+                MEMORY ANALYSIS
+
+<TBA>
+
+==================        6         ===================
