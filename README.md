@@ -118,7 +118,7 @@ Please note that through the example tool we were able to identify indicators fo
 
 ==================        6         ===================
 
-                MEMORY ANALYSIS
+                OPEN SOURCE INTELLIGENCE
 
 <TBA>
 
