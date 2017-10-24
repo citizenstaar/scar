@@ -11,7 +11,7 @@
 	DYNAMIC ANALYSIS             3
 	CODE ANALYSIS                4
 	MEMORY ANALYSIS              5
-        OPEN SOURCE INTELLIGENCE     6
+	OPEN SOURCE INTELLIGENCE     6
 
 ===================TABLE OF CONTENTS===================
 
