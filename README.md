@@ -87,6 +87,7 @@ c.  Use MSDN to research the purpose of function calls of interest.
 
 
 Please note that through the example tool we were able to identify indicators for the file to include cryptographic hashes, logical size, embedded file information, and interesting function calls.   The file information can be provided back to intrustion analysts and investigtors to verify aagainst network/host logs or check host file system for indicators.  Also, you should be able to provide a hypothesis on what the capability of th software is based on your review of api calls. 
+
 ==================        2         ===================
 
 ==================        3         ===================
