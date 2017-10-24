@@ -120,6 +120,15 @@ Please note that through the example tool we were able to identify indicators fo
 
                 OPEN SOURCE INTELLIGENCE
 
-<TBA>
+1.  Using collected Indicators of Compromise (IOC) search open repositories for more information:
+    (i.e. hashes, domains, ips, etc...)
+a.  https://totalhash.cymru.com
+b.  https://www.virustotal.com
+c.  https://www.threatcrowd.org
+d.  https://www.reverse.it
 
+2.  Checking each information source consider what behavorial, static, and comments are made that will enable you.
+
+3.  Never upload a sample if it is related to a active incident...search on IOCs.  Remember the owner of the software
+can monitor these sources just like you can.
 ==================        6         ===================
