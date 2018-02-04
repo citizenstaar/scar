@@ -1,0 +1,98 @@
+
+<!-- 
+=============================
+______ _____ __  _____  __  
+| ___ \  ___/  ||  _  |/  | 
+| |_/ / |__ `| || |/' |`| | 
+|    /|  __| | ||  /| | | | 
+| |\ \| |____| |\ |_/ /_| |_
+\_| \_\____/\___/\___/ \___/
+                            
+Site archive:   https://github.com/citizenstaar
+Video archive:  https://www.youtube.com/user/CitizenXray
+
+=============================
+ -->
+ 
+ 
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>RE101 - A Malware Analysis Story</title>
+    <link rel="shortcut icon" href="images/re101.png">
+    <link rel="alternate" href="https://github.com/citizenstaar/scar/rss/rss.xml" type="application/rss+xml" title="RE101"/>
+    <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+</head>
+
+<body>
+    
+    <div id="page">
+        <div id="content">
+
+        <!--HEADER SECTION -->
+        <div id="header"><pre>
+<a class="node" href="https://github.com/citizenstaar">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+RRRRRRRRRRRRRRRRR   EEEEEEEEEEEEEEEEEEEEEE  1111111        000000000       1111111                                             AAA                    MMMMMMMM               MMMMMMMM                  lllllll                                                                                                                    AAA                                                 lllllll                                          iiii                           SSSSSSSSSSSSSSS hhhhhhh                                                           tttt          
+R::::::::::::::::R  E::::::::::::::::::::E 1::::::1      00:::::::::00    1::::::1                                            A:::A                   M:::::::M             M:::::::M                  l:::::l                                                                                                                   A:::A                                                l:::::l                                         i::::i                        SS:::::::::::::::Sh:::::h                                                        ttt:::t          
+R::::::RRRRRR:::::R E::::::::::::::::::::E1:::::::1    00:::::::::::::00 1:::::::1                                           A:::::A                  M::::::::M           M::::::::M                  l:::::l                                                                                                                  A:::::A                                               l:::::l                                          iiii                        S:::::SSSSSS::::::Sh:::::h                                                        t:::::t          
+RR:::::R     R:::::REE::::::EEEEEEEEE::::E111:::::1   0:::::::000:::::::0111:::::1                                          A:::::::A                 M:::::::::M         M:::::::::M                  l:::::l                                                                                                                 A:::::::A                                              l:::::l                                                                      S:::::S     SSSSSSSh:::::h                                                        t:::::t          
+  R::::R     R:::::R  E:::::E       EEEEEE   1::::1   0::::::0   0::::::0   1::::1                                         A:::::::::A                M::::::::::M       M::::::::::M  aaaaaaaaaaaaa    l::::lwwwwwww           wwwww           wwwwwwwaaaaaaaaaaaaa  rrrrr   rrrrrrrrr       eeeeeeeeeeee                    A:::::::::A         nnnn  nnnnnnnn      aaaaaaaaaaaaa    l::::lyyyyyyy           yyyyyyy  ssssssssss   iiiiiii     ssssssssss        S:::::S             h::::h hhhhh          ooooooooooo   rrrrr   rrrrrrrrr   ttttttt:::::ttttttt    
+  R::::R     R:::::R  E:::::E                1::::1   0:::::0     0:::::0   1::::1                                        A:::::A:::::A               M:::::::::::M     M:::::::::::M  a::::::::::::a   l::::l w:::::w         w:::::w         w:::::w a::::::::::::a r::::rrr:::::::::r    ee::::::::::::ee                 A:::::A:::::A        n:::nn::::::::nn    a::::::::::::a   l::::l y:::::y         y:::::y ss::::::::::s  i:::::i   ss::::::::::s       S:::::S             h::::hh:::::hhh     oo:::::::::::oo r::::rrr:::::::::r  t:::::::::::::::::t    
+  R::::RRRRRR:::::R   E::::::EEEEEEEEEE      1::::1   0:::::0     0:::::0   1::::1                                       A:::::A A:::::A              M:::::::M::::M   M::::M:::::::M  aaaaaaaaa:::::a  l::::l  w:::::w       w:::::::w       w:::::w  aaaaaaaaa:::::ar:::::::::::::::::r  e::::::eeeee:::::ee              A:::::A A:::::A       n::::::::::::::nn   aaaaaaaaa:::::a  l::::l  y:::::y       y:::::yss:::::::::::::s  i::::i ss:::::::::::::s       S::::SSSS          h::::::::::::::hh  o:::::::::::::::or:::::::::::::::::r t:::::::::::::::::t    
+  R:::::::::::::RR    E:::::::::::::::E      1::::l   0:::::0 000 0:::::0   1::::l         ---------------              A:::::A   A:::::A             M::::::M M::::M M::::M M::::::M           a::::a  l::::l   w:::::w     w:::::::::w     w:::::w            a::::arr::::::rrrrr::::::re::::::e     e:::::e             A:::::A   A:::::A      nn:::::::::::::::n           a::::a  l::::l   y:::::y     y:::::y s::::::ssss:::::s i::::i s::::::ssss:::::s       SS::::::SSSSS     h:::::::hhh::::::h o:::::ooooo:::::orr::::::rrrrr::::::rtttttt:::::::tttttt    
+  R::::RRRRRR:::::R   E:::::::::::::::E      1::::l   0:::::0 000 0:::::0   1::::l         -:::::::::::::-             A:::::A     A:::::A            M::::::M  M::::M::::M  M::::::M    aaaaaaa:::::a  l::::l    w:::::w   w:::::w:::::w   w:::::w      aaaaaaa:::::a r:::::r     r:::::re:::::::eeeee::::::e            A:::::A     A:::::A       n:::::nnnn:::::n    aaaaaaa:::::a  l::::l    y:::::y   y:::::y   s:::::s  ssssss  i::::i  s:::::s  ssssss          SSS::::::::SS   h::::::h   h::::::ho::::o     o::::o r:::::r     r:::::r      t:::::t          
+  R::::R     R:::::R  E::::::EEEEEEEEEE      1::::l   0:::::0     0:::::0   1::::l         ---------------            A:::::AAAAAAAAA:::::A           M::::::M   M:::::::M   M::::::M  aa::::::::::::a  l::::l     w:::::w w:::::w w:::::w w:::::w     aa::::::::::::a r:::::r     rrrrrrre:::::::::::::::::e            A:::::AAAAAAAAA:::::A      n::::n    n::::n  aa::::::::::::a  l::::l     y:::::y y:::::y      s::::::s       i::::i    s::::::s                  SSSSSS::::S  h:::::h     h:::::ho::::o     o::::o r:::::r     rrrrrrr      t:::::t          
+  R::::R     R:::::R  E:::::E                1::::l   0:::::0     0:::::0   1::::l                                   A:::::::::::::::::::::A          M::::::M    M:::::M    M::::::M a::::aaaa::::::a  l::::l      w:::::w:::::w   w:::::w:::::w     a::::aaaa::::::a r:::::r            e::::::eeeeeeeeeee            A:::::::::::::::::::::A     n::::n    n::::n a::::aaaa::::::a  l::::l      y:::::y:::::y          s::::::s    i::::i       s::::::s                    S:::::S h:::::h     h:::::ho::::o     o::::o r:::::r                  t:::::t          
+  R::::R     R:::::R  E:::::E       EEEEEE   1::::l   0::::::0   0::::::0   1::::l                                  A:::::AAAAAAAAAAAAA:::::A         M::::::M     MMMMM     M::::::Ma::::a    a:::::a  l::::l       w:::::::::w     w:::::::::w     a::::a    a:::::a r:::::r            e:::::::e                    A:::::AAAAAAAAAAAAA:::::A    n::::n    n::::na::::a    a:::::a  l::::l       y:::::::::y     ssssss   s:::::s  i::::i ssssss   s:::::s                  S:::::S h:::::h     h:::::ho::::o     o::::o r:::::r                  t:::::t    tttttt
+RR:::::R     R:::::REE::::::EEEEEEEE:::::E111::::::1110:::::::000:::::::0111::::::111                              A:::::A             A:::::A        M::::::M               M::::::Ma::::a    a:::::a l::::::l       w:::::::w       w:::::::w      a::::a    a:::::a r:::::r            e::::::::e                  A:::::A             A:::::A   n::::n    n::::na::::a    a:::::a l::::::l       y:::::::y      s:::::ssss::::::si::::::is:::::ssss::::::s     SSSSSSS     S:::::S h:::::h     h:::::ho:::::ooooo:::::o r:::::r                  t::::::tttt:::::t
+R::::::R     R:::::RE::::::::::::::::::::E1::::::::::1 00:::::::::::::00 1::::::::::1                             A:::::A               A:::::A       M::::::M               M::::::Ma:::::aaaa::::::a l::::::l        w:::::w         w:::::w       a:::::aaaa::::::a r:::::r             e::::::::eeeeeeee         A:::::A               A:::::A  n::::n    n::::na:::::aaaa::::::a l::::::l        y:::::y       s::::::::::::::s i::::::is::::::::::::::s      S::::::SSSSSS:::::S h:::::h     h:::::ho:::::::::::::::o r:::::r                  tt::::::::::::::t
+R::::::R     R:::::RE::::::::::::::::::::E1::::::::::1   00:::::::::00   1::::::::::1                            A:::::A                 A:::::A      M::::::M               M::::::M a::::::::::aa:::al::::::l         w:::w           w:::w         a::::::::::aa:::ar:::::r              ee:::::::::::::e        A:::::A                 A:::::A n::::n    n::::n a::::::::::aa:::al::::::l       y:::::y         s:::::::::::ss  i::::::i s:::::::::::ss       S:::::::::::::::SS  h:::::h     h:::::h oo:::::::::::oo  r:::::r                    tt:::::::::::tt
+RRRRRRRR     RRRRRRREEEEEEEEEEEEEEEEEEEEEE111111111111     000000000     111111111111                           AAAAAAA                   AAAAAAA     MMMMMMMM               MMMMMMMM  aaaaaaaaaa  aaaallllllll          www             www           aaaaaaaaaa  aaaarrrrrrr                eeeeeeeeeeeeee       AAAAAAA                   AAAAAAAnnnnnn    nnnnnn  aaaaaaaaaa  aaaallllllll      y:::::y           sssssssssss    iiiiiiii  sssssssssss          SSSSSSSSSSSSSSS    hhhhhhh     hhhhhhh   ooooooooooo    rrrrrrr                      ttttttttttt  
+                                                                                                                                                                                                                                                                                                                                                                                                   y:::::y                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                                                                  y:::::y                                                                                                                                                             
+                                                                                                                                                                                                                                                                                                                                                                                                 y:::::y                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                                y:::::y                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                               yyyyyyy                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   </a> 
+   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</pre>
+            </div>
+
+            <!--THE LIST -->
+            
+            <div id="list">
+            
+            <ul>
+
+
+
+
+                <li>
+                    <a href="https://raw.githubusercontent.com/citizenstaar/scar/master/README.md/link">
+                        <span class="tag">[DD]</span><span>RE101 / Analyzing Scar a Trojan Downloader 323f70f79c922f9ccef5a5df7c25030cf4c628494eeba483aae05ba1c84ee301 </span>
+                    </a>
+                </li>
+
+                
+
+            </ul>
+            </div>
+            
+            <!--FOOTER SECTION -->
+
+            <div id="footer">
+                <pre>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</pre>
+                <div class="filter">
+                <a href="https://github.com/citizenstaar/scar/index.html">HOME</a>
+                <span class="footdogs">  &#215; </span>
+                <a target="_blank" href="https://github.com/citizenstaar">GITHUB</a>
+                </div>
+
+        </div>
+
+</body>
+</html>
