@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+<channel>
+  <title>RE101 - A Malware Analysis Short</title>
+  <link>https://github.com/citizenstaar/scar</link>
+
+  <image>
+      <url>https://github.com/citizenstaar/scar/images/re101.png</url>
+      <link>https://github.com/citizenstaar/scar</link>
+  </image>
+
+  <item>
+      <title>Scar Readme</title>
+      <link>https://raw.githubusercontent.com/citizenstaar/scar/master/README.md/link>
+  </item>
+  </channel>
+</rss> 
