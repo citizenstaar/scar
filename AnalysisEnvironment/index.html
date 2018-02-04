@@ -37,7 +37,7 @@ Video archive:  https://www.youtube.com/user/CitizenXray
  | |) | |\__ \__ \ _| (__  | |   \__ \ (__ / _ \|   /
  |___/___|___/___/___\___| |_|   |___/\___/_/ \_\_|_\
                                                      
-<center><h1>text here</h1></center>	
+<center><h1>Building Your Analysis Environment</h1></center>		
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 </pre>
             </div>
@@ -48,7 +48,39 @@ Video archive:  https://www.youtube.com/user/CitizenXray
             <div id="list">
             
             <ul>
-			
+<li><h2>		ANALYSIS ENVIRONMENT SETUP</h2></li>
+</br>
+<li>Please assure you have done the following.</li>
+</br>
+<li>1.  Install a virtualization software.  Check out Oracle Virtualbox, Xen,  or Vmware Workstation.  (Feel free to choose a different product.)</li>
+</br>
+<li>2.  Grab a x86 OS from: <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/"></a>Microsoft Free VM Windows OS Images</li>
+</br>
+<li>3.  Grab a copy of Remnux OVA: <a href="https://docs.google.com/uc?id=0B6fULLT_NpxMampUWlBCQXVJZzA&export=download">REMNUX OVA</a></li>
+</br>
+<li>4.  Import the Microsoft VM and REmnux OVA.  Snapshot after install.</li>
+</br>
+<li>5.  Execute the Flare install script on the Microsoft VM.  <a href="https://github.com/fireeye/flare-vm"></a>FLARE Install Instructions</li>
+</br>
+<li>6.  Snapshot the Microsoft VM.</li>
+</br>
+<li>7.  Install the Virtualization tools for your host software on the Microsoft Guest and Remnux.</li>
+</br>
+<li>8.  Snapshot the Microsoft VM and REmnux.</li>
+</br>
+<li>9.  Update Remnux per the instructions here:  <a href="https://remnux.org/docs/distro/update/">Remnux Update Instructions</a></li>
+</br>
+<li>10.  Update Flare Windows VM per the intructions here:  "cup all"  OR <a href="https://github.com/fireeye/flare-vm">Flare Update Instructions</a></li>
+</br>
+<li>11.  Snapshot the Flare WIndows VM and REmnux.</li>
+</br>
+<li>12.  Grab a copy of Scar from here: <a href="https://github.com/citizenstaar/scar/blob/master/scar.zzz">"scar" Trojan Downloader (do not download to your host)</a> </li>
+</br>
+<li>13.  Stage a copy on the desktops of both Remnux and Flare VMs.</li>
+</br>
+<li>14.  Change the network for both hosts to "Host Only".</li>
+</br>
+<li>15.  Snapshot both VMs</li>			
 
     </ul>
             </div>            
